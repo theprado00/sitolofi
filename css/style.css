@@ -1,3 +1,7 @@
+body {
+  scroll-behavior: smooth;
+}
+
 .showcase {
   position: relative;
   height: 100%;
@@ -30,19 +34,35 @@
   transform: translate(-50%, -50%);
   }
 
-h1, h2, h3, h4 {
+h1, h2, p {
   font-family: 'VT323', monospace;
   color: white;
   text-align: center;
   position: relative;
 }      
 
+.paragrafo {
+  font-family: 'VT323', monospace;
+  color: white;
+  font-size: 2vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
 
+.par-link {
+  text-decoration: none;
+  color: white;
+  background-color: blue;
+}
+
+.titolo {
+  font-size: 2.5vh;
+}
 
 .topnav {
   font-family: 'VT323', monospace;
   padding-top: 1vh;
-  font-size: 4vh;
+  font-size: 3.5vh;
   overflow: hidden;
   position: relative;
   text-align: center;
@@ -66,7 +86,7 @@ h1, h2, h3, h4 {
 
 .corpo {
   font-family: 'VT323', monospace;
-  font-size: 4vh;
+  font-size: 3.5vh;
   text-decoration: none;
   color: white;
   text-transform: uppercase;
@@ -76,7 +96,7 @@ h1, h2, h3, h4 {
 
 .inizio {
     font-family: 'VT323', monospace;
-    font-size: 4vh;
+    font-size: 3.5vh;
     text-align: center;
     position: relative;
     text-transform: uppercase;
@@ -92,8 +112,17 @@ h1, h2, h3, h4 {
   background-color: white;
 }
 
+.out a:hover {
+  color: blue;
+  background-color: white;
+}
+
 ul {
   list-style-type: none;
+}
+
+li {
+  text-align: center;
 }
 
 .track {
@@ -107,4 +136,25 @@ ul {
   padding-top: 0.6vh;
   padding-right: 0.6vh;
   padding-left: 0.6vh;
+}
+
+.albero {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wireframe {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dati {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
